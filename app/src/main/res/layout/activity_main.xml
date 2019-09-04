@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progressBarRed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:tooltipText="Red"
+        app:rcBackgroundPadding="2dp"
+        app:rcMax="1000.0"
+        app:rcProgress="0.0"
+        app:rcProgressColor="#f00"
+        app:rcRadius="10dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progressBarGreen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:tooltipText="Green"
+        app:rcBackgroundPadding="2dp"
+        app:rcMax="1000.0"
+        app:rcProgress="0.0"
+        app:rcProgressColor="#0f0"
+        app:rcRadius="10dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progressBarBlue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:tooltipText="Blue"
+        app:rcBackgroundPadding="2dp"
+        app:rcMax="1000.0"
+        app:rcProgress="0.0"
+        app:rcProgressColor="#00f"
+        app:rcRadius="10dp" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Start" />
+
+    <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Stop" />
+
+</LinearLayout>
